@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(247, 245, 245);
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.app {
+  margin: 0;
+  padding: 0;
+}
+.custom-wrapper {
+  height: 100%!important;
+  width: 100%!important;
+}
+
+.custom-layout {
+  height: 100%!important;
+}
+.custom-editor {
+  height: 100%!important;
+}
+.custom-preview {
+  margin: 0;
+  padding: 0;
+}
+
