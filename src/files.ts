@@ -137,7 +137,7 @@ export const useParentSize = <T extends HTMLElement>(): [
     initDuration,
     initStart,
   }: RadialProps) => {
-    const [dounts] = useState<number>(initDounts || 20);
+    const [dounts] = useState<number>(initDounts || 30);
     const [offsetDount] = useState<number>(initOffsetDount || 0);
     const [status, setStatus] = useState<RadialStatus>({
       init: true,
@@ -682,7 +682,7 @@ export const VizWrapper = ({
   const refDountsSelection = useRef<DountsSelection | null>(null);
   const refPointsSelection = useRef<PointsSelection | null>(null);
   const radius = Math.min(width, height) / 2;
-  const innerRadius = radius / 8;
+  const innerRadius = radius / 16;
   const outerRadius = radius;
 
   const rScale = useMemo(() => {
